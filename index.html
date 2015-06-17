@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MPC</title>
+	<link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css" type="text/css" media=screen>
+</head>
+<body>
+
+<div class="audiotags"></div>
+
+<div class="plugs">
+	<div class="plug plug1"></div>
+	<div class="plug plug2"></div>
+	<div class="plug3">
+		<div class="plugtop"></div>
+		<div class="plug plugbottom"></div>
+	</div>
+	<div class="plug4">
+		<div class="plugtop"></div>
+		<div class="plug plugbottom"></div>
+	</div>
+	<div class="plug5">
+		<div class="plugtop"></div>
+		<div class="plug plugbottom"></div>
+	</div>
+</div>
+
+<div class="platform">
+
+<div class="selector" id="incdec">
+    <input class="value" type="range" max="3" min="1" value="0" />
+    <div class="arrow arrow-up" id="up" ></div>
+    <h4>SELECT</h4>
+    <div class="arrow arrow-down" id="down" ></div>
+</div>
+
+<div class="outerScreen">
+	<div class="innerScreen">
+	<h1></h1>
+	<h2></h2>
+	</div>
+</div>
+
+<div class="volumeWrapper">
+  <input class="volume" type="range" min="0" max="1" step="0.01"></input><label class="volumeLabel"></label>
+  <h4>VOLUME</h4>
+</div>
+
+<div class="buttonWrapper">
+
+<!-- First Row -->
+
+<div class="outerButton">
+	<h5>Y<br>Z</h5>
+	<h6>PAD 13</h6>
+	<div class="button" data-sound="13" data-key="89 90"></div>
+</div>
+
+<div class="outerButton">
+	<h5>&<br>#</h5>
+	<h6>PAD 14</h6>
+	<div class="button" data-sound="14" data-key="55 51"></div>
+</div>
+
+<div class="outerButton">
+	<h5>-<br>!</h5>
+	<h6>PAD 15</h6>
+	<div class="button" data-sound="15" data-key="189 49"></div>
+</div>
+
+<div class="outerButton">
+	<h5>(<br>)</h5>
+	<h6>PAD 16</h6>
+	<div class="button" data-sound="16" data-key="57 48 222 221"></div>
+</div>
+
+<!-- Second Row -->
+
+<div class="outerButton">
+	<h5>Q<br>R</h5>
+	<h6>PAD 9</h6>
+	<div class="button" data-sound="9" data-key="81 82"></div>
+</div>
+
+<div class="outerButton">
+	<h5>S<br>T</h5>
+	<h6>PAD 10</h6>
+	<div class="button" data-sound="10" data-key="83 84"></div>
+</div>
+
+<div class="outerButton">
+	<h5>U<br>V</h5>
+	<h6>PAD 11</h6>
+	<div class="button" data-sound="11" data-key="85 86"></div>
+</div>
+
+<div class="outerButton">
+	<h5>W<br>X</h5>
+	<h6>PAD 12</h6>
+	<div class="button" data-sound="12" data-key="87 88"></div>
+</div>
+
+<!-- Third Row -->
+
+<div class="outerButton">
+	<h5>I<br>J</h5>
+	<h6>PAD 5</h6>
+	<div class="button" data-sound="5" data-key="73 76"></div>
+</div>
+
+<div class="outerButton">
+	<h5>K<br>L</h5>
+	<h6>PAD 6</h6>
+	<div class="button" data-sound="6" data-key="75 76"></div>
+</div>
+
+<div class="outerButton">
+	<h5>M<br>N</h5>
+	<h6>PAD 7</h6>
+	<div class="button" data-sound="7" data-key="77 78"></div>
+</div>
+
+<div class="outerButton">
+	<h5>O<br>P</h5>
+	<h6>PAD 8</h6>
+	<div class="button" data-sound="8" data-key="79 80"></div>
+</div>
+
+<!-- Fourth Row -->
+
+<div class="outerButton">
+	<h5>A<br>B</h5>
+	<h6>PAD 1</h6>
+	<div class="button" data-sound="1" data-key="65 66"></div>
+</div>
+
+<div class="outerButton">
+	<h5>C<br>D</h5>
+	<h6>PAD 2</h6>
+	<div class="button" data-sound="2" data-key="67 68"></div>
+</div>
+
+<div class="outerButton">
+	<h5>E<br>F</h5>
+	<h6>PAD 3</h6>
+	<div class="button" data-sound="3" data-key="69 70"></div>
+</div>
+
+<div class="outerButton">
+	<h5>G<br>H</h5>
+	<h6>PAD 4</h6>
+	<div class="button" data-sound="4" data-key="71 72"></div>
+</div>
+
+</div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="scripts.js"></script>
+	
+</body>
+</html>
