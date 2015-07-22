@@ -1,6 +1,27 @@
 body {
 	font-family: 'Ropa Sans';
 	font-weight: 400;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 300px;
+	padding-bottom: 10px;
+}
+
+.footer {
+	padding-top: 25px;
+	width: 100%;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #272526;
+	border-bottom: 1px solid #272526;
 }
 
 .innerScreen h1 {
@@ -122,7 +143,8 @@ h6 {
 }
 
 .button:active {
-	margin: 15px 5px 5px 5px;
+	position: relative;
+	top: 5px;
 	box-shadow: none;
 }
 
